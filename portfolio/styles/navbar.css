@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+}
