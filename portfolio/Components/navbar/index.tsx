@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 
 
 
-function Nav() {
+function Nav(props) {
   return (
     <div className="container">
       <ul className="nav-ul">
@@ -20,8 +20,8 @@ function Nav() {
             <Switch
               checked={true}
               size="sm"
-              iconOn={<SunIcon />}
-              iconOff={<MoonIcon />}
+              iconOn={<SunIcon  {...props} />}
+              iconOff={<MoonIcon {...props}  />}
             />
           </Grid>
         </Grid.Container>
