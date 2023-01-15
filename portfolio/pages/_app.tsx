@@ -9,7 +9,7 @@ import theme from '../Components/themes'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <NextUIProvider theme={theme}>
+      <NextUIProvider theme={theme} >
         <Nav />
         <Component {...pageProps} />
       </NextUIProvider>

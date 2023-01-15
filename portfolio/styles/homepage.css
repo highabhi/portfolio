@@ -11,8 +11,9 @@
   place-content: center;
   place-items: center;
   overflow: hidden;
-  border: 3px solid rgba(36, 12, 173, 0.3);
+  border: 2px 23px 3px solid rgba(36, 12, 173, 0.3);
   margin-left: 60%;
+  margin-top: 8%;
 
   /* background: rgb(216, 207, 207);
   box-shadow: 0 4px 30px rgba(35, 214, 74, 0.1);
@@ -40,7 +41,9 @@
   margin-top: 0;
   color: inherit;
   font-variant: small-caps;
-  margin-left: 25%;
+  margin-left: 20%;
+  margin-top: 8%;
+  position: absolute;
   letter-spacing: 2px;
   font-size: 4rem;
 }
