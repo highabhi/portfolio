@@ -2,9 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
   width: 100vw;
-  
+  /* background-color: #1B1811 ; */
 }
 
 .nav-ul {
@@ -13,4 +12,5 @@
   gap: 1rem;
   font-variant: small-caps;
   cursor: pointer;
+ 
 }
