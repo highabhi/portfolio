@@ -1,6 +1,7 @@
 .home-container {
   /* height: 100vw; */
   max-width: 100%;
+  /* background-color: gray; */
   overflow: hidden;
 }
 
@@ -33,24 +34,48 @@
     margin: 0;
     display: flex;
     align-self: center;
+    margin-top: 50vw;
+    margin-left: 25vw;
+  }
+}
+
+.title-container {
+  display: flex;
+  margin-top: 0;
+  color: inherit;
+  margin-left: 20%;
+  margin-top: 8%;
+  position: absolute;
+}
+
+@media screen and (max-width: 524px) {
+  .title-container {
+    margin: 0;
+    display: flex;
   }
 }
 
 .title {
-  display: flex;
-  margin-top: 0;
-  color: inherit;
-  font-variant: small-caps;
-  margin-left: 20%;
-  margin-top: 8%;
-  position: absolute;
   letter-spacing: 2px;
-  font-size: 4rem;
+  font-variant: small-caps;
+
 }
 
 @media screen and (max-width: 524px) {
   .title {
     margin: 0;
-    margin-left: 5%;
+    margin-left: 3%;
   }
+}
+
+.name {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  transition: all 400ms;
+  top: 0;
+}
+
+.name:hover::after {
+  top: -40px;
 }

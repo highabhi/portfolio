@@ -5,17 +5,21 @@ function HomePage() {
   return (
     <>
       <div className="home-container">
-        <h1 className="title">
-          Front End <br /> Developer
-        </h1>
+        <div className="title-container">
+          <h1 className="title">Front End </h1>
+          
+        </div>
 
-      {/* on hover the heading first changes to heading second */}
+        {/* on hover the heading first changes to heading second */}
+
         {/* <h1>
           Abhishek <br /> Kumar
         </h1> */}
 
         {/* photo container with framer motin division */}
-        <div className="image-container">Profile picture here</div>
+        
+        <Box className="image-container"></Box>
+
       </div>
     </>
   );
